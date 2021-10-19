@@ -1,4 +1,4 @@
-REQ_DISC_CNT=12
+REQ_DISC_CNT=14
 
 app: main.c hanoj.o Makefile
 	gcc -DDISC_CNT=$(REQ_DISC_CNT) hanoj.o main.c -o app
